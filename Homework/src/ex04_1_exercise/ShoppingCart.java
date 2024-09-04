@@ -1,12 +1,12 @@
 
-package Chapter4;
+package ex04_1_exercise;
 
-public class ex04_1_exercise {
+public class ShoppingCart {
 
     public static void main(String[] args) {
         // Declare and initialize String variables.  Do not initialize message yet.
-        String custName = "Luvuyo Mazibuko";
-        String itemDesc = "Chain";
+        String custName = "Luvuyo";
+        String itemDesc = "Chain!";
         String message;
         
         // Assign the message variable 
