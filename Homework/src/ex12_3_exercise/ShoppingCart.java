@@ -10,6 +10,7 @@ public class ShoppingCart {
         
         // call the display method on the object, then the getColor method
         item.display();
+
         if (item instanceof Shirt) {
             String color = ((Shirt) item).getColor();
             System.out.println("Color: " + color);

@@ -9,7 +9,7 @@ public class ShoppingCart {
 
 	// numeric fields
         double price = 21.99;
-        int quantity = 0;
+        int quantity = 2;
         double tax = 1.04;
 	double total;
 	String message = custName+" wants to purchase "+quantity+" "+itemDesc;
@@ -19,7 +19,7 @@ public class ShoppingCart {
 
   
         // Declare outOfStock variable and initialize it
-        boolean outOfStock = true;
+        boolean outOfStock = false;
         
 	// Test quantity and modify message if quantity > 1.
         if (quantity > 1){

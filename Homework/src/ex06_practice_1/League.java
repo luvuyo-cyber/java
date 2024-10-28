@@ -24,7 +24,7 @@ public class League {
         player2.playerName = "Graham Greene";
         Player player3 = new Player();
         player3.playerName = "Geoffrey Chaucer";
-        Player[] thePlayers = {player1, player2, player3 };
+        Player[] thePlayers = {player1, player2, player3 }; //first array
         
         Team team1 = new Team();
         team1.teamName = "The Greens";
@@ -34,7 +34,7 @@ public class League {
         // Create team2
         Team team2 = new Team();
         team2.teamName = "The Reds";
-        team2.playerArray = new Player[3];
+        team2.playerArray = new Player[3]; //second array,3 element player array
         team2.playerArray[0] = new Player();
         team2.playerArray[0].playerName = "Robert Service";
         team2.playerArray[1] = new Player();

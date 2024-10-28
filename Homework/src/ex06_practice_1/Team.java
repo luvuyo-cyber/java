@@ -12,7 +12,7 @@ package ex06_practice_1;
  */
 public class Team {
     
-    public String teamName;
-    public Player[] playerArray;
+    public String teamName; //names of the teams
+    public Player[] playerArray; //we store our players
     
 }

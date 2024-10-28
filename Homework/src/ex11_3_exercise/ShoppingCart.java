@@ -21,7 +21,7 @@ you might get different results for which items are available and what the total
 */
 
 public class ShoppingCart {
-    Item[] items = {new Item("Shirt",25.60), 
+    Item[] items = {new Item("Shirt",25.60),
                     new Item("WristBand",1.00), 
                     new Item("Pants",35.99)};
     
